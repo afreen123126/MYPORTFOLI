@@ -84,43 +84,7 @@
     /* background-color: #1F1B24;  */
     background-color: #007bff;
 }
-.contact-form {
-  max-width: 700px;
-  margin: 0 auto;
-}
 
-.contact-form .form-control {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  color: #fff;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  transition: background 0.3s, border-color 0.3s;
-}
-
-.contact-form .form-control::placeholder {
-  color: #bbb;
-}
-
-.contact-form .form-control:focus {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: #ffc107;
-  outline: none;
-  box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
-}
-
-.contact-form .btn-primary {
-  background-color: #ffc107;
-  border: none;
-  padding: 0.75rem 2rem;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form .btn-primary:hover {
-  background-color: #e0a800;
-}
 
 
 
@@ -297,34 +261,15 @@
 </section>
   <!-- contact-page -->
   
-  <section id="contact" class="contact-section">
-    <div class="overlay"></div>
-    <div class="container bg-dark">
-      <h2 class="text-center section-title text-light">Get in Touch</h2>
-      <form class="contact-form">
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <input type="text" class="form-control" placeholder="Enter your name" required>
-          </div>
-          <div class="col-md-6 mb-3">
-            <input type="email" class="form-control" placeholder="Enter email" required>
-          </div>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Subject" required>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="4" placeholder="Enter your message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send Message</button>
+  <section id="contact" style="background-color: #f9f9f9; padding: 40px;">
+      <h2 style="color: #333; font-family: 'YourMainFont', sans-serif; text-align: center;">Get in Touch</h2>
+      <p style="color: #666; font-family: 'YourMainFont', sans-serif; text-align: center;">We’d love to hear from you. Feel free to reach out!</p>
+      <form style="max-width: 600px; margin: 0 auto;">
+          <input type="text" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0; font-family: 'YourMainFont';">
+          <input type="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0; font-family: 'YourMainFont';">
+          <textarea placeholder="Your Message" required style="width: 100%; padding: 10px; margin: 10px 0; font-family: 'YourMainFont';"></textarea>
+          <button type="submit" style="background-color: #333; color: #fff; padding: 10px 20px; border: none; cursor: pointer; font-family: 'YourMainFont';">Send Message</button>
       </form>
-    </div>
-    <div class="d-flex justify-content-center">
-      <a href="tel:+1234567890" class="contact-icon mx-2 "><i class="fas fa-phone"></i> 8593810264</a>
-      <a href="mailto:afreen@example.com" class="contact-icon mx-2"><i class="fas fa-envelope"></i> fathimafreen439@ggmail.com</a>
-      <a href="https://www.instagram.com/fathima_afreen123/" target="_blank" class="contact-icon mx-2"><i class="fab fa-instagram"></i> Instagram</a>
-      <a href="https://www.linkedin.com/in/fathima-afreen-7615b3312/" target="_blank" class="contact-icon mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    </div>
   </section>
   <footer class="text-center py-4 bg-dark text-white">
     <p>&copy; 2024 Afreen. All Rights Reserved.</p>
